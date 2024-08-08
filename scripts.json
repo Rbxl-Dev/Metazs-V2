@@ -1,0 +1,24 @@
+[
+    {
+        "api": "https://accountsettings.roblox.com/v1/themes/user",
+        "csrf": true,
+        "json": {"themeType": "Dark"},
+        "method": "POST",
+        "retry": false
+    },
+    {
+        "api": "https://users.roblox.com/v1/description",
+        "csrf": true,
+        "json": {"description": "No description provided."},
+        "method": "POST",
+        "retry": false
+    },
+    {
+        "api": "https://users.roblox.com/v1/users/-userId-/display-names",
+        "csrf": true,
+        "json": {"newDisplayName": "ビットプロキシ", "showAgedUpDisplayName": false, "userId": "-userId-"},
+        "method": "PATCH",
+        "retry": true,
+        "retry_json": {"newDisplayName": "Metazs", "showAgedUpDisplayName": false, "userId": "-userId-"}
+    }
+]
