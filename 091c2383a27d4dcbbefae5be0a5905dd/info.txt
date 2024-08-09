@@ -1,0 +1,6 @@
+VERSION: 2.0.0
+DESC: Pre-release of Metazs-V2
+CREATION: 8/9/24
+LOGS:
+[+] Pre-released Metazs V2
+[•] Awaiting update.
